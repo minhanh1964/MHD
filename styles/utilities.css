@@ -2,6 +2,9 @@
 .text-center {
     text-align: center;
 }
+.text-left {
+    text-align: left;
+}
 .text-white {
     color:#fff!important;
 }
@@ -28,4 +31,9 @@
 }
 .pb-1 {
     padding-bottom: 1em;
+}
+
+/* WITDH */
+.w-100 {
+    width: 100%;
 }
