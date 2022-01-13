@@ -31,10 +31,18 @@
     padding-top: 2em;
 }
 .pt-1 {
-    padding-top: 1em;
+    padding-top: 1em!important;
+}
+.pt-05 {
+    padding-top: 0.5em!important;
 }
 .pb-1 {
     padding-bottom: 1em;
+}
+
+/* MARGIN */
+.mb-0 {
+    margin-bottom: 0em!important;
 }
 
 /* WITDH */
