@@ -1,0 +1,9 @@
+.BoxLeft {
+    padding: 2em;
+    padding-top: 5em;
+}
+.BoxRight {
+    padding: 2em;
+    height: 100vh;
+    background: #002043;
+}
