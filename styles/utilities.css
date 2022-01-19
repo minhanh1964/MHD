@@ -25,7 +25,8 @@
 }
 /* PADDING */
 .pt-5 {
-    padding-top: 5em;
+    padding-top: 10em;
+    font-family: cursive;
 }
 .pt-2 {
     padding-top: 2em;
