@@ -12,7 +12,7 @@ const { Title } = Typography;
 export default function SelectDate() {
   return (
     <div className="background-container">
-      <div className='container pt-5'>
+      <div className='container pt-10'>
         <div className={style.select}>
           <Title level={1} className="text-white">Select Date</Title>
         </div>

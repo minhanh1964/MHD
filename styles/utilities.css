@@ -24,6 +24,9 @@
     height:100vh;
 }
 /* PADDING */
+.pt-10 {
+    padding-top: 10em;
+}
 .pt-5 {
     padding-top: 5em;
 }
@@ -32,9 +35,11 @@
 }
 .pt-1 {
     padding-top: 1em!important;
+    border-radius: 50%;
 }
 .pt-05 {
     padding-top: 0.5em!important;
+
 }
 .pb-1 {
     padding-bottom: 1em;
@@ -56,4 +61,9 @@
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
+}
+
+/* BORDER RADIUS */
+.br-50 {
+    border-radius: 50%;
 }
