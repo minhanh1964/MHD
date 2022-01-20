@@ -72,7 +72,7 @@ export default function ChoosingTable() {
           <Col span={16} className={style.BoxLeft}>
 
             <div className={style.BoxTableReservation}>
-              <img src='/restaurant_booked.png' className='w-100' />
+              <img src='/restaurant_booked.png' className={style.groundPlan} />
               <img id='table-1' src='/table2.png' class={style.table2} />
               <img id='table-2' src='/table4.png' class={style.table4} />
             </div>

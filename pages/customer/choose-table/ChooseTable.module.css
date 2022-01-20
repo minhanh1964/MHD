@@ -7,6 +7,9 @@
     height: 100vh;
     background: #002043;
 }
+.groundPlan {
+    width:627px;
+}
 .table2 {
     position: absolute;
     top: 130px;
