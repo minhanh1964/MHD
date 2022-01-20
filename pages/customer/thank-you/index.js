@@ -18,7 +18,7 @@ export default function ThankYou() {
           </h3>
           <Row className='pt-2' justify='center'>
             <Col span={8}>
-              <Link href='/'>
+              <Link href='/' passHref>
                 <Button>Back to Start</Button>
               </Link>
             </Col>
