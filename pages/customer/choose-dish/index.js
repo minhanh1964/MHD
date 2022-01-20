@@ -66,15 +66,20 @@ export default function ChoosingDish() {
           <Title level={3} className="text-white text-left pt-1">Your Order: </Title>
           <Title level={3} className="text-white text-left pt-1">Total: </Title>
           {/* 2 BUTTON  */}
-          <Row className='pt-2' justify='space-around'>
-            <Col span={8}>
-              <Link href='/customer/select-date'>
+          <Row className='pt-2' justify='space-between'>
+            <Col span={1}>
+              <Link href='/customer/select-date' passHref>
                 <Button>Back</Button>
               </Link>
             </Col>
+            <Col span={5}>
+              <Link href='/customer/choose-table' passHref>
+                <Button type="primary">Choose table</Button>
+              </Link>
+            </Col>
             <Col span={8}>
-              <Link href='/customer/choose-dish'>
-                <Button type="primary">Continue</Button>
+              <Link href='/customer/customer-info' passHref>
+                <Button type="primary">Check out</Button>
               </Link>
             </Col>
           </Row>

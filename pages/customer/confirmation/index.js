@@ -17,12 +17,12 @@ export default function Confirmation() {
           </h3>
           <Row className='pt-2' justify='center'>
             <Col span={8}>
-              <Link href='/customer/customer-info'>
+              <Link href='/customer/customer-info' passHref>
                 <Button>Back</Button>
               </Link>
             </Col>
             <Col span={8}>
-              <Link href='/customer/thank-you'>
+              <Link href='/customer/thank-you' passHref>
                 <Button type="primary">Continue</Button>
               </Link>
             </Col>

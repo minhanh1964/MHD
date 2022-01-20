@@ -20,12 +20,12 @@ export default function CustomerInfo() {
           </Form.Item>
           <Row className='pt-2' justify='center'>
             <Col span={8}>
-              <Link href='/customer/select-date'>
+              <Link href='/customer/select-date' passHref>
                 <Button>Back</Button>
               </Link>
             </Col>
             <Col span={8}>
-              <Link href='/customer/confirmation'>
+              <Link href='/customer/confirmation' passHref>
                 <Button type="primary">Continue</Button>
               </Link>
             </Col>

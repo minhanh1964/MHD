@@ -13,7 +13,7 @@ export default function LandingPage() {
           <img src='/logo1.png' />
         </div>
         <Title level={2} className="pt-1 pb-1 text-gold">Make reservation, make life!</Title>
-        <Link href='/customer/select-date'>
+        <Link href='/customer/select-date' passHref>
           <Button type="primary" className={style.antdButton}>Begin now</Button>
         </Link>
       </div>
