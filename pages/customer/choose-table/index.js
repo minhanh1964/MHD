@@ -103,15 +103,20 @@ export default function ChoosingTable() {
 
             </Row>
             {/* 2 BUTTON  */}
-            <Row className='pt-2' justify='space-around'>
-              <Col span={8}>
+            <Row className='pt-2' justify='space-between'>
+              <Col span={1}>
                 <Link href='/customer/select-date' passHref>
                   <Button>Back</Button>
                 </Link>
               </Col>
-              <Col span={8}>
+              <Col span={5}>
                 <Link href='/customer/choose-dish' passHref>
                   <Button type="primary">Choose Dish</Button>
+                </Link>
+              </Col>
+              <Col span={8}>
+                <Link href='/customer/customer-info' passHref>
+                  <Button type="primary">Check out</Button>
                 </Link>
               </Col>
             </Row>
