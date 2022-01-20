@@ -7,10 +7,10 @@ const { Title } = Typography;
 export default function LandingPage() {
   return (
     <div className="background-container">
-      <div className="container pt-5">
+      <div className="container pt-10">
         <Title level={1} className="text-gold">MHD Restaurant</Title>
         <div className="pt-1">
-          <img src='/logo1.png' />
+          <img src='/logo1.png' className="br-50"/>
         </div>
         <Title level={2} className="pt-1 pb-1 text-gold">Make reservation, make life!</Title>
         <Link href='/customer/select-date'>

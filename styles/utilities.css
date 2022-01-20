@@ -24,9 +24,11 @@
     height:100vh;
 }
 /* PADDING */
-.pt-5 {
+.pt-10 {
     padding-top: 10em;
-    font-family: cursive;
+}
+.pt-5 {
+    padding-top: 5em;
 }
 .pt-2 {
     padding-top: 2em;
@@ -61,6 +63,7 @@
     margin-right: auto;
 }
 
-img {
+/* BORDER RADIUS */
+.br-50 {
     border-radius: 50%;
 }
