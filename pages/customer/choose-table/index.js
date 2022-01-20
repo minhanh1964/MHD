@@ -62,7 +62,7 @@ export default function ChoosingTable() {
         },
       }
     })
-  })
+  }, [])
 
 
   return (
@@ -105,12 +105,12 @@ export default function ChoosingTable() {
             {/* 2 BUTTON  */}
             <Row className='pt-2' justify='space-around'>
               <Col span={8}>
-                <Link href='/customer/select-date'>
+                <Link href='/customer/select-date' passHref>
                   <Button>Back</Button>
                 </Link>
               </Col>
               <Col span={8}>
-                <Link href='/customer/choose-dish'>
+                <Link href='/customer/choose-dish' passHref>
                   <Button type="primary">Choose Dish</Button>
                 </Link>
               </Col>
