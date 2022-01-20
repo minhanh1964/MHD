@@ -35,8 +35,8 @@ export default function ChoosingTable() {
           position1.x += event.dx
           position1.y += event.dy
 
-          event.target.style.transform =
-            `translate(${position1.x}px, ${position1.y}px)`
+          // event.target.style.transform =
+          //   `translate(${position1.x}px, ${position1.y}px)`
         },
       }
     })
@@ -57,8 +57,8 @@ export default function ChoosingTable() {
           position2.x += event.dx
           position2.y += event.dy
 
-          event.target.style.transform =
-            `translate(${position2.x}px, ${position2.y}px)`
+          // event.target.style.transform =
+          //   `translate(${position2.x}px, ${position2.y}px)`
         },
       }
     })
@@ -72,9 +72,9 @@ export default function ChoosingTable() {
           <Col span={16} className={style.BoxLeft}>
 
             <div className={style.BoxTableReservation}>
-              <img src='/restaurant_booked.png' className={style.groundPlan} />
-              <img id='table-1' src='/table2.png' class={style.table2} />
-              <img id='table-2' src='/table4.png' class={style.table4} />
+              <img src='/restaurant_booked.png' className={style.groundPlan} alt="" />
+              <img id='table-1' src='/table2.png' class={style.table2} alt="" />
+              <img id='table-2' src='/table4.png' class={style.table4} alt="" />
             </div>
           </Col>
           <Col span={8} className={style.BoxRight}>
