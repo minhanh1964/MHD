@@ -1,4 +1,4 @@
-import { Button, Link, Typography } from 'antd'
+import { Button, Typography } from 'antd'
 import Link from 'next/link'
 
 const { Title } = Typography;
