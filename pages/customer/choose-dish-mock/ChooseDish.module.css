@@ -1,0 +1,36 @@
+.BoxLeft {
+    padding: 2em;
+    padding-top: 5em;
+}
+.BoxRight {
+    padding: 1em;
+    height: 100vh;
+    background: #002043;
+}
+.MenuSection{
+    background: white;
+    margin-top: 0.25em;
+    text-align: left;
+    padding: 1em;
+}
+.MenuItem {
+    background-color: white;
+    padding: 1em;
+    margin-top: 0.25em;
+    transition: all .3s;
+}
+.MenuItem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.459); 
+    cursor:pointer;
+}
+.FoodImage{
+    width:100%;
+    height:170px;
+}
+.FoodDesc{
+    width: 90%;
+    height: 80px;
+    font-style: italic;
+    text-align: left;
+}

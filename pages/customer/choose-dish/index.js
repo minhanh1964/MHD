@@ -39,16 +39,18 @@ export default function ChoosingDish() {
           <div className={style.MenuSection}>
             <Title level={3} className='mb-0'>Beloved Dishes</Title>
           </div>
-          <Row className={style.MenuItem}>
-            <Col span={16}>
-              <Title level={4} className='text-left'>Cheese Beef Burger</Title>
-              <p className={style.FoodDesc}>Beloved choice for who like cheese, beef and burger. Contain fat</p>
-              <Title level={4} className='text-left'>14.99$ </Title>
-            </Col>
-            <Col span={8}>
-              <img src='/burger.jpg' className={style.FoodImage} />
-            </Col>
-          </Row>
+          <Link href='/customer/choose-dish-mock' passHref>
+            <Row className={style.MenuItem}>
+              <Col span={16}>
+                <Title level={4} className='text-left'>Cheese Beef Burger</Title>
+                <p className={style.FoodDesc}>Beloved choice for who like cheese, beef and burger. Contain fat</p>
+                <Title level={4} className='text-left'>14.99$ </Title>
+              </Col>
+              <Col span={8}>
+                <img src='/burger.jpg' className={style.FoodImage} />
+              </Col>
+            </Row>
+          </Link>
           <Row className={style.MenuItem}>
             <Col span={16}>
               <Title level={4} className='text-left'>Vegan Burger</Title>

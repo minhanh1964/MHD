@@ -11,6 +11,9 @@ export default function Confirmation() {
         <div className="pt-2 mx-auto w-50">
           <h3 className="text-white">
             Can you confirm your data?<br /><br />
+            Table: 5, 9 <br />
+            Dish: 1 Beef Cheese Burger <br />
+            Total: 14.99$ <br /> <br />
             Name: Max Mustermann<br />
             E-Mail: max.mustermann@abc.de<br/>
             Phone: 012345678 <br />
