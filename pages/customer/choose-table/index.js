@@ -6,10 +6,9 @@ import { useState, useEffect } from 'react';
 import interact from 'interactjs'
 import Link from 'next/link'
 import style from './ChooseTable.module.css';
+import moment from 'moment';
 
 const { Title } = Typography;
-
-
 
 export default function ChoosingTable() {
   const [_document, set_document] = useState(null)
@@ -82,12 +81,12 @@ export default function ChoosingTable() {
             <div className='pt-1'>
               <Title level={3} className="text-left text-white">Time and Date:</Title>
               <Space direction="horizontal">
-                <DatePicker />
-                <TimePicker />
+                <DatePicker defaultValue={moment('2022/01/28', 'YYYY/MM/DD')} />
+                <TimePicker defaultValue={moment('18:00:00', 'HH:mm:ss')} />
               </Space>
             </div>
             <div className='pt-1'>
-              <Title level={3} className="text-left text-white">Your Table: </Title>
+              <Title level={3} className="text-left text-white">Your Table: 5, 9</Title>
             </div>
             <Row className='pt-1'>
               <Col span={19}>
