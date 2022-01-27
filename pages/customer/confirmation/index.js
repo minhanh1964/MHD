@@ -11,18 +11,21 @@ export default function Confirmation() {
         <div className="pt-2 mx-auto w-50">
           <h3 className="text-white">
             Can you confirm your data?<br /><br />
+            Table: 5, 9 <br />
+            Dish: 1 Beef Cheese Burger <br />
+            Total: 14.99$ <br /> <br />
             Name: Max Mustermann<br />
             E-Mail: max.mustermann@abc.de<br/>
             Phone: 012345678 <br />
           </h3>
           <Row className='pt-2' justify='center'>
             <Col span={8}>
-              <Link href='/customer/customer-info'>
+              <Link href='/customer/customer-info' passHref>
                 <Button>Back</Button>
               </Link>
             </Col>
             <Col span={8}>
-              <Link href='/customer/thank-you'>
+              <Link href='/customer/thank-you' passHref>
                 <Button type="primary">Continue</Button>
               </Link>
             </Col>

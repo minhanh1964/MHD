@@ -39,16 +39,18 @@ export default function ChoosingDish() {
           <div className={style.MenuSection}>
             <Title level={3} className='mb-0'>Beloved Dishes</Title>
           </div>
-          <Row className={style.MenuItem}>
-            <Col span={16}>
-              <Title level={4} className='text-left'>Cheese Beef Burger</Title>
-              <p className={style.FoodDesc}>Beloved choice for who like cheese, beef and burger. Contain fat</p>
-              <Title level={4} className='text-left'>14.99$ </Title>
-            </Col>
-            <Col span={8}>
-              <img src='/burger.jpg' className={style.FoodImage} />
-            </Col>
-          </Row>
+          <Link href='/customer/choose-dish-mock' passHref>
+            <Row className={style.MenuItem}>
+              <Col span={16}>
+                <Title level={4} className='text-left'>Cheese Beef Burger</Title>
+                <p className={style.FoodDesc}>Beloved choice for who like cheese, beef and burger. Contain fat</p>
+                <Title level={4} className='text-left'>14.99$ </Title>
+              </Col>
+              <Col span={8}>
+                <img src='/burger.jpg' className={style.FoodImage} />
+              </Col>
+            </Row>
+          </Link>
           <Row className={style.MenuItem}>
             <Col span={16}>
               <Title level={4} className='text-left'>Vegan Burger</Title>
@@ -66,15 +68,20 @@ export default function ChoosingDish() {
           <Title level={3} className="text-white text-left pt-1">Your Order: </Title>
           <Title level={3} className="text-white text-left pt-1">Total: </Title>
           {/* 2 BUTTON  */}
-          <Row className='pt-2' justify='space-around'>
-            <Col span={8}>
-              <Link href='/customer/select-date'>
+          <Row className='pt-2' justify='space-between'>
+            <Col span={1}>
+              <Link href='/customer/select-date' passHref>
                 <Button>Back</Button>
               </Link>
             </Col>
+            <Col span={5}>
+              <Link href='/customer/choose-table' passHref>
+                <Button type="primary">Choose table</Button>
+              </Link>
+            </Col>
             <Col span={8}>
-              <Link href='/customer/choose-dish'>
-                <Button type="primary">Continue</Button>
+              <Link href='/customer/customer-info' passHref>
+                <Button type="primary">Check out</Button>
               </Link>
             </Col>
           </Row>

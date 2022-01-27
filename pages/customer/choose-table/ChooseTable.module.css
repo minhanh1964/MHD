@@ -3,7 +3,28 @@
     padding-top: 5em;
 }
 .BoxRight {
-    padding: 2em;
+    padding: 1em;
     height: 100vh;
     background: #002043;
+}
+.groundPlan {
+    width:627px;
+}
+.table2 {
+    position: absolute;
+    top: 130px;
+    left: 33px;
+    width:52px;
+}
+.table4 {
+    position: absolute;
+    top: 192px;
+    left: 240px;
+    width: 53px;
+}
+.table4:hover {
+    outline: 2px solid darkseagreen;
+}
+.table2:hover {
+    outline: 2px solid darkseagreen;
 }
